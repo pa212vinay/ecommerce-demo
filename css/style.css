@@ -1,0 +1,346 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.row {
+  width: 100%;
+  margin: 0px;
+}
+
+.header {
+  background: radial-gradient(#fff, #ffd6d6);
+}
+.header .container .cus-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header .container .cus-row .logo img {
+  width: 125px;
+}
+.header .container .cus-row .main-menu .hamburger img {
+  width: 30px;
+}
+.header .container .cus-row .main-menu .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .container .cus-row .main-menu .menu li {
+  list-style: none;
+  padding: 0px 25px 0px 0px;
+}
+.header .container .cus-row .main-menu .menu li a {
+  text-decoration: none;
+  color: #555555;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+.header .container .cus-row .main-menu .menu li a:hover {
+  color: #000000;
+}
+.header .container .cus-row .main-menu .menu li .active {
+  color: #000000;
+}
+.header .container .cus-row .main-menu .menu .cart-list {
+  padding-right: 0px;
+}
+.header .container .cus-row .main-menu .menu .cart-list .cart {
+  width: 30px;
+}
+.header .container .row {
+  margin-top: 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .container .row .banner-heading {
+  margin: 25px 0px;
+  font-size: 50px;
+  font-weight: 700;
+}
+.header .container .row .banner-para {
+  margin: 0px;
+}
+.header .container .row .expolre-btn {
+  display: inline-block;
+  margin: 30px 0px;
+  padding: 8px 30px;
+  background: #ff523b;
+  border-radius: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: background 0.4s;
+  transition: background 0.4s;
+}
+.header .container .row .expolre-btn:hover {
+  background: #563434;
+}
+.header .container .row .banner-img {
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.category .small-container {
+  max-width: 1080px;
+}
+.category .cat-container {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.category .cat-container .cat-row img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.category .featured-container .featured-prod {
+  line-height: 60px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+}
+.category .featured-container .featured-prod::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 8px;
+  bottom: 0;
+  border-bottom: 5px solid red;
+}
+.category .featured-container .feature-row .cart a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: 65px;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+}
+.category .featured-container .feature-row .cart a:hover {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+.category .featured-container .feature-row .cart a .pro-img {
+  width: 100%;
+}
+.category .featured-container .feature-row .cart a .pro-price {
+  font-size: 14px;
+}
+
+.offer-container {
+  background: radial-gradient(#fff, #ffd6d6);
+  padding: 30px 0px;
+}
+.offer-container .small-container {
+  margin: 0 auto;
+}
+.offer-container .offer-row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.offer-container .offer-row .offer-img {
+  max-width: 100%;
+  padding: 50px;
+}
+.offer-container .offer-row .offer-first-para {
+  margin: 0px;
+}
+.offer-container .offer-row .offer-heading {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 25px 0px;
+}
+.offer-container .offer-row .offer-sec-para {
+  font-size: 14px;
+  margin: 0px;
+}
+.offer-container .offer-row .offer-btn {
+  display: inline-block;
+  margin: 30px 0px;
+  padding: 8px 30px;
+  background: #ff523b;
+  border-radius: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: background 0.4s;
+  transition: background 0.4s;
+}
+.offer-container .offer-row .offer-btn:hover {
+  background: #563434;
+}
+
+.testimonial-container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.testimonial-container .testimonial-row .testimonial-cart {
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.testimonial-container .testimonial-row .testimonial-cart:hover {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+.testimonial-container .testimonial-row .testimonial-cart a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  padding: 40px 20px;
+}
+.testimonial-container .testimonial-row .testimonial-cart a .user-info {
+  font-size: 14px;
+}
+.testimonial-container .testimonial-row .testimonial-cart a .user-img {
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.testimonial-container .testimonial-row .testimonial-cart a .user-name {
+  font-weight: 600;
+  color: #555555;
+}
+
+.brands-container {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.brands-container .brands-row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.brands-container .brands-row .brands-logo {
+  width: 160px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  cursor: pointer;
+}
+.brands-container .brands-row .brands-logo:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.footer {
+  background: #000;
+  padding: 60px 0 20px;
+}
+.footer .footer-row {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b5b5b5;
+}
+.footer .footer-row .app-store-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px 0px 20px 0px;
+}
+.footer .footer-row .app-store-detail {
+  color: #8a8a8a;
+  font-size: 14px;
+  margin: 0px;
+}
+.footer .footer-row .app-store-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0px 0px 0px;
+}
+.footer .footer-row .app-store-img img {
+  width: 140px;
+}
+.footer .footer-row .app-store-img img:first-child {
+  margin-right: 5px;
+}
+.footer .footer-row .footer-logo-moto {
+  text-align: center;
+}
+.footer .footer-row .footer-logo-moto .footer-logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+.footer .footer-row .footer-logo-moto .company-moto {
+  color: #8a8a8a;
+  font-size: 14px;
+}
+.footer .footer-row .cus-useful-links {
+  text-align: center;
+}
+.footer .footer-row .cus-useful-links ul {
+  padding: 0;
+}
+.footer .footer-row .cus-useful-links ul li {
+  list-style: none;
+}
+.footer .footer-row .cus-useful-links ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #8a8a8a;
+}
+.footer .footer-row .cus-useful-links ul li a:hover {
+  color: #ffffff;
+}
+.footer .footer-row .cus-socialmedia {
+  text-align: center;
+}
+.footer .footer-row .cus-socialmedia ul {
+  padding: 0;
+}
+.footer .footer-row .cus-socialmedia ul li {
+  list-style: none;
+}
+.footer .footer-row .cus-socialmedia ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #8a8a8a;
+}
+.footer .footer-row .cus-socialmedia ul li a:hover {
+  color: #ffffff;
+}
+.footer .copyright-row {
+  text-align: center;
+}
+.footer .copyright-row p {
+  color: #8a8a8a;
+  margin: 20px 0px 0px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
